@@ -293,6 +293,43 @@
       <h4 class="container-fluid pb-3 border-bottom border-info border-1">
         Contacto
       </h4>
+      <div class="text-start">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              aria-describedby="nameText"
+              placeholder="Coloca tu nombre ej: María Barrios"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="subject" class="form-label">Asunto</label>
+            <input
+              type="text"
+              class="form-control"
+              id="subject"
+              aria-describedby="nameText"
+              placeholder="Asunto del mensaje ej: Quiero viajar"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="5"
+              placeholder="Déjanos tu mensaje ..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-info">Enviar</button>
+        </form>
+      </div>
     </section>
 
     <!-- Pie de página con links a RSS-->
